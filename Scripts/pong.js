@@ -16,9 +16,9 @@ const PADDLE_HEIGHT = 100;
 const PADDLE_WIDTH = 20;
 const PADDLE_SEPARATION = 5;
 
-let paddleSound = new sound("./sounds/paddle.mp3");
-let wallSound = new sound("./sounds/wall.mp3");
-let scoreSound = new sound("./sounds/score.mp3");
+let paddleSound = new sound("./Sounds/paddle.mp3");
+let wallSound = new sound("./Sounds/wall.mp3");
+let scoreSound = new sound("./Sounds/score.mp3");
 
 window.onload = function() {
 	canvas = document.getElementById("gameCanvas");
