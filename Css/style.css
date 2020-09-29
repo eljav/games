@@ -1,0 +1,21 @@
+@font-face {
+	font-family: Arcade_N;
+	src: url('ARCADE_N.TTF');
+}
+body {
+	background-color: black;
+	font-family: Arcade_N;
+	color: white;
+}
+.row {
+	display: flex;
+}
+.column {
+	flex: 50%;
+}
+.side {
+	margin-top: 50px;
+}
+label {
+	font-size: 60px;
+}
