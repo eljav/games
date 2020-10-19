@@ -10,3 +10,4 @@ Simple Canvas and JavaScript based browser games
 * Tic-tac-toe (minimax)
 * Bricks
 * 4 player pong
+* Space invaders
