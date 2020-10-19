@@ -19,3 +19,19 @@ body {
 label {
 	font-size: 60px;
 }
+.navbar a {
+	font-size: 30px;
+	text-align: left;
+	display: block;
+	text-decoration: none;
+	margin-bottom: 12px;
+	color: grey;
+}
+
+.navbar a:hover {
+	color: white;
+}
+
+.navbar a.active {
+	color: white;
+}
