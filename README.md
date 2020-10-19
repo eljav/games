@@ -2,5 +2,8 @@
 Simple JavaScript based browser games
 
 * Pong
-* Tic-tac-toe
+
+# To-do
+* Tic-tac-toe (minimax)
 * Bricks
+* 4 player pong
