@@ -1,5 +1,8 @@
+https://eljav.github.io/games/
+
+Simple Canvas and JavaScript based browser games
+
 # Games
-Simple JavaScript based browser games
 
 * Pong
 
