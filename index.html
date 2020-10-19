@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8"/>
@@ -14,8 +14,9 @@
 					</label>
 				</div>
 				<div class="column">
-					<h1>Ponga</h1>
-					<canvas id="gameCanvas" width="800" height="600"></canvas>
+					<h1>Pong</h1>
+					<canvas id="pongCanvas" width="800" height="600"></canvas>
+
 				</div>
 				<div class="column side">
 					<h1>Right score</h1>
@@ -24,7 +25,26 @@
 					</label>
 				</div>
 			</div>
+			<div class="navbar" id="nav">
+				<a href="pong.html" onclick="">Pong</a>
+				<a href="javascript:void(0);" onclick="">Gato</a>
+				<a href="javascript:void(0);" onclick="">Space invaders</a>
+			</div>
 		</center>
 	</body>
-	<script src="Scripts/pong.js"></script>
 </html>
+
+<script src="Scripts/pong.js"></script>
+<script src=""></script>
+<script>
+	let links = document.getElementsByTagName("a");
+	for (let i = 0; i < links.length; i++) {
+		links[i].addEventListener("click", function () {
+			let current = document.getElementsByClassName("active");
+			if (current.length > 0) {
+				current[0].className = current[0].className.replace(" active", "");
+			}
+			this.className += " active";
+		});
+    }
+</script>
