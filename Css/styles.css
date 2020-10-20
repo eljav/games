@@ -7,6 +7,24 @@ body {
 	font-family: Arcade_N;
 	color: white;
 }
+a {
+	font-size: 25px;
+	text-decoration: none;
+	color: grey;
+}
+a:hover {
+	color: white;
+}
+h1 {
+	font-size: 40px;
+}
+.title {
+	font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
 .row {
 	display: flex;
 }
@@ -14,16 +32,14 @@ body {
 	flex: 50%;
 }
 .side {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 label {
 	font-size: 60px;
 }
 .navbar a {
-	font-size: 30px;
-	text-align: left;
+	font-size: 25px;
 	text-decoration: none;
-	margin-bottom: 12px;
 	color: grey;
 }
 
