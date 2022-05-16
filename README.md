@@ -1,4 +1,4 @@
-https://eljav.github.io/games/
+https://eljav.github.io/games
 
 Simple Canvas and JavaScript based browser games
 
